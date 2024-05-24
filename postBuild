@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Install the py5 Jupyter kernel
+python -m py5_tools.install
+
+# Ensure the graphical environment is not headless
+echo "Setting up graphical environment..."
+apt-get update
+apt-get install -y xvfb x11-apps
+

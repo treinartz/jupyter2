@@ -1,0 +1,9 @@
+name: py5-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - py5
+  - openjdk=17  # Add Java 17
+
